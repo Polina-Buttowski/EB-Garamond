@@ -1,0 +1,656 @@
+@import url('fonts.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'EB Garamond';
+}
+body{
+    background-color: #708D5D;
+}
+
+img{
+    position: absolute;
+}
+.main1{
+    padding-top: 270px;
+    height: 930px;
+}
+
+.slide1-connection{
+    position: absolute;
+    top: 280px;
+    left: 670px;
+}
+
+#screen_2{
+    position: relative;
+    width: 100%;
+    height: 687px;
+    padding: 0 63px;
+}
+
+.title_description{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+}
+.img-mainflower-right{
+    top: 163px;
+    right: 0px;
+    height: 700px;
+}
+.img-mainflower-left{
+    top: 163px;
+    height: 700px;
+}
+
+.navigation{
+    position: absolute;
+    top: 72px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 40px;
+
+}
+.main-border{
+    display: flex;
+    align-items: center;
+    width: 192px;
+    height: 55px;
+    font-size: 15px;
+    color: #F3D3D6;
+    border: 
+        2px
+        solid
+        #F3D3D6;
+    border-radius: 66px;
+    text-align: center;
+    justify-content: center;
+}
+.little-main-text-up{
+    color: #F3D3D6;
+    font-size: 16.88px;
+}
+
+.little-main-text-down{
+    color: #F3D3D6;
+    font-size: 16.88px;
+    text-align: right;
+
+}
+
+.main-text{
+    display: flex;
+    flex-direction: column;
+    width: 607.25px;
+}
+
+.font-name{
+    color: #F3D3D6;
+    font-size: 80px;
+    text-align: center;
+}
+
+.main1-text{
+    width: 580.5px;
+    color: #E8D0A5;
+    font-size: 25.88px;
+}
+.main2{
+    padding-left: 87.85px;
+    padding-top: 250px;
+}
+.title{
+    width: 372px;
+    line-height: 60px;
+    font-style: bold italic;
+    font-size: 70px;
+    color: #E8D0A5;
+}
+.text-picture{
+    display: flex;
+    gap: 100px;
+}
+
+.soedidnenie{
+    padding-left: 200px;
+    width: 901.29px;
+}
+.text-connection{
+    top: 112px;
+    left: 240px;
+    width: 777px;
+}
+.flower-text-2s-1{
+    color: #E8D0A5;
+    font-size: 22.5px;
+    width: 225px;
+    position: absolute;
+    left: 97px;
+    top: 272px;
+}
+
+.example-pink-text-1-1{
+    color: #F3D3D6;
+    font-size: 15px;
+    position: absolute;
+    left: 951px;
+    top: 281px;
+}
+
+.flower-text-2s-2{
+    color: #E8D0A5;
+    font-size: 22.5px;
+    width: 225px;
+    position: absolute;
+    top: 427px;
+    left: 397px;
+}
+
+.flower-text-2s-3{
+    color: #E8D0A5;
+    font-size: 22.5px;
+    width: 225px;
+    position: absolute;
+    left: 439px;
+    top: 210px;
+}
+
+.flower-text-2s-4{
+    color: #E8D0A5;
+    font-size: 22.5px;
+    width: 282px;
+    position: absolute;
+    left: 570px;
+    top: 37px;
+}
+
+.flower-text-2s-5{
+    color: #E8D0A5;
+    font-size: 22.5px;
+    width: 295px;
+    position: absolute;
+    left: 1040px;
+    top: 376px;
+}
+
+.sprout{
+    position: absolute;
+    left: 315px;
+    top: 347px;
+}
+
+.sprout2{
+    position: absolute;
+    left: 635px;
+    top: 216px;
+}
+
+.sprout3{
+    position: absolute;
+    left: 790px;
+    top: 90px;
+}
+
+.title-2{
+    position: absolute;
+    left: 62px;
+    top: 1580.13px;
+}
+
+.bouqet-flowers{
+    position: absolute;
+    top: 0px;
+    left: 190px;
+}
+
+.Regular-bouqet{
+    position: absolute;
+    top: 130px;
+    left: 726px;
+    transform: rotate(36.55deg);
+    color: #F3D3D6;
+    font-size: 39px;
+}
+
+.Medium-bouqet{
+    font-weight: 500;
+    position: absolute;
+    top: 246px;
+    left: 632px;
+    transform: rotate(27.87deg);
+    color: #F3D3D6;
+    font-size: 39px;    
+}
+
+.Semibold-bouqet{
+    font-weight: 600;
+    position: absolute;
+    top: 380px;
+    left: 572px;
+    transform: rotate(27.87deg);
+    color: #F3D3D6;
+    font-size: 39.38px;    
+}
+
+.Bold-bouqet{
+    font-weight: 700;
+    position: absolute;
+    top: 527px;
+    left: 576px;
+    transform: rotate(13.97deg);
+    color: #F3D3D6;
+    font-size: 39.38px;  
+}
+
+.ExtraBold-bouqet{
+    font-weight: 800;
+    position: absolute;
+    top: 650px;
+    left: 519px;
+    transform: rotate(12.36deg);
+    color: #F3D3D6;
+    font-size: 39.38px;  
+}
+
+.Itakic-bouqet{
+    font-style: italic;
+    position: absolute;
+    top: 234px;
+    left: 920px;
+    transform: rotate(12.74deg);
+    color: #F3D3D6;
+    font-size: 39.38px;  
+}
+
+.MediumItalic-bouqet{
+    font-style: italic;
+    font-weight: 500;
+    position: absolute;
+    top: 335px;
+    left: 815px;
+    transform: rotate(11.74deg);
+    color: #F3D3D6;
+    font-size: 33px;  
+}
+
+.SemiBoldItalic-bouqet{
+    font-style: Italic;
+    font-weight: 600;
+    position: absolute;
+    top: 447px;
+    left: 760px;
+    transform: rotate(3.67deg);
+    color: #F3D3D6;
+    font-size: 33.75px;  
+}
+
+.BoldItalic-bouqet{
+    font-style: Italic;
+    font-weight: 700;
+    position: absolute;
+    top: 561px;
+    left: 760px;
+    transform: rotate(-4.92deg);
+    color: #F3D3D6;
+    font-size: 33px;  
+}
+
+.ExtaraBoldItalic-bouqet{
+    font-style: Italic;
+    font-weight: 800;
+    position: absolute;
+    top: 670px;
+    left: 740px;
+    transform: rotate(-11.74deg);
+    color: #F3D3D6;
+    font-size: 28px;  
+}
+
+.title-3{
+    position: absolute;
+    left: 62px;
+    top: 2794.5px;
+}
+
+.text-flower-center{
+    display: flex;
+    align-items: center;
+    
+}
+
+#screen_3{
+    position: relative;
+    width: 100%;
+    height: 1158px;
+    padding: 0 63px;
+}
+
+#screen_4{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    padding: 0 63px;    
+}
+
+.exaple-text{
+    display: flex;
+    flex-direction: column;
+    font-size: 113px;
+    color: #E8D0A5;
+    text-align: center;
+    gap: 30px;
+    padding-top: 35px;
+}
+
+.pink-example{
+    color: #F3D3D6;
+}
+
+.italic-pink{
+    font-style: italic;
+}
+
+.example-first-svg{
+    width: 305px;
+    height: 143px;
+    position: absolute;
+    left: 646px;
+    top: 150px;
+}
+
+.example-second-svg{
+    width: 463px;
+    height: 110px;
+    position: absolute;
+    left: 423px;
+    top: 350px;
+}
+
+.example-pink-text-1{
+    color: #F3D3D6;
+    font-size: 17px;
+    position: absolute;
+    left: 690px;
+    top: 122px;
+}
+
+.example-pink-text-2{
+    color: #F3D3D6;
+    font-size: 17px;
+    position: absolute;
+    left: 440px;
+    top: 330px;
+}
+
+.example-pink-text-3{
+    color: #F3D3D6;
+    font-size: 17px;
+    position: absolute;
+    left: 690px;
+    top: 331px;
+}
+
+.example-pink-text-4{
+    color: #F3D3D6;
+    font-size: 17px;
+    position: absolute;
+    left: 815px;
+    top: 462px;
+}
+
+.example-pink-text-5{
+    color: #F3D3D6;
+    font-size: 15px;
+    position: absolute;
+    left: 666px;
+    top: 646px;   
+}
+.example-pink-text-6{
+    color: #F3D3D6;
+    font-size: 15px;
+    position: absolute;
+    left: 683px;
+    top: 827px; 
+}
+
+#screen_5{
+    position: relative;
+    width: 100%;
+    height: 1003px;
+    padding: 0 63px;
+}
+
+.big-leafs{
+    width: 1449px;
+    height: 1066px;
+    position: absolute;
+    top: -64px;
+    left: -7px;
+}
+
+.butterfly-letters-little{
+    position: absolute;
+    top: 118px;
+    left: 1088px;
+}
+
+.butterfly-letters-big{
+    position: absolute;
+    top: 185px;
+    left: -215px;
+}
+
+.text1-s5{
+    width: 279px;
+    font-size: 23px;
+    position: absolute;
+    top: 660px;
+    left: 415px;
+    color: #E8D0A5;
+}
+
+.text2-s5{
+    font-size: 22px;
+    position: absolute;
+    top: 338px;
+    left: 765px;
+    color: #E8D0A5;
+    width: 248px;
+}
+
+.text3-s5{
+    color: #E8D0A5;
+    font-size: 22px;
+    position: absolute;
+    top: 700px;
+    left: 953px;
+    width: 253px;
+}
+
+#screen_6{
+    position: relative;
+    width: 100%;
+    height: 860px;
+    padding: 0 63px;
+}
+
+.img-example1{
+    position: absolute;
+    top: 185px;
+    left: 94px;
+}
+
+.img-example2{
+    position: absolute;
+    top: -24px;
+    left: 641px;
+}
+
+.img-example3{
+    position: absolute;
+    top: 625px;
+    left: 823px;
+}
+
+#screen_7{
+    position: relative;
+    width: 100%;
+    height: 1391px;
+}
+
+.letter-a{
+    position: absolute;
+    color: #708D5D;
+    top: 638px;
+    left: 267px;
+    font-size: 90px;
+    transform: rotate(17deg);
+}
+.letter-b{
+    position: absolute;
+    color: #708D5D;
+    top: 744px;
+    left: 111px;
+    font-size: 90px;
+    transform: rotate(13deg);
+}
+
+.letter-c{
+    position: absolute;
+    color: #708D5D;
+    top: 779px;
+    left: 373px;
+    font-size: 90px;
+    transform: rotate(-12.4deg);
+}
+
+.letter-e{
+    position: absolute;
+    color: #708D5D;
+    top: 850px;
+    left: 40px;
+    font-size: 90px;
+    transform: rotate(15.53deg);
+}
+
+.letter-f{
+    position: absolute;
+    color: #708D5D;
+    top: 860px;
+    left: 255px;
+    font-size: 90px;
+    transform: rotate(-15.03deg);
+}
+
+.letter-g{
+    position: absolute;
+    color: #708D5D;
+    top: 954px;
+    left: 121px;
+    font-size: 90px;
+    transform: rotate(-12.4deg);
+}
+
+.letter-aru{
+    position: absolute;
+    color: #708D5D;
+    top: 680px;
+    left: 976px;
+    font-size: 90px;
+    transform: rotate(21.01deg);    
+}
+
+.letter-bru{
+    position: absolute;
+    color: #708D5D;
+    top: 800px;
+    left: 881.45px;
+    font-size: 90px;
+    transform: rotate(16.63deg);     
+}
+
+.letter-vru{
+    position: absolute;
+    color: #708D5D;
+    top: 819px;
+    left: 1007px;
+    font-size: 90px;
+    transform: rotate(-15.97deg);  
+}
+
+.letter-gru{
+    position: absolute;
+    color: #708D5D;
+    top: 785px;
+    left: 1127.78px;
+    font-size: 90px;
+    transform: rotate(4.37deg);     
+}
+
+.letter-dru{
+    position: absolute;
+    color: #708D5D;
+    top: 875px;
+    left: 1194px;
+    font-size: 90px;
+    transform: rotate(10.93deg);     
+}
+
+.letter-eru{
+    position: absolute;
+    color: #708D5D;
+    top: 938px;
+    left: 1066px;
+    font-size: 90px;
+    transform: rotate(-12.4deg);     
+}
+
+.letter-jru{
+    position: absolute;
+    color: #708D5D;
+    top: 956px;
+    left: 1312.12px;
+    font-size: 90px;
+    transform: rotate(-9.4deg);     
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    width: 1110px;
+    position: absolute;
+    bottom: 0px;
+    left: 165px;
+}
+
+.pink-little-line{
+    color: #F3D3D6;
+    width: 827px;
+    line-height: 1px;
+}
+
+.pink-big-line{
+    color: #F3D3D6;
+    width: 1110px;
+    line-height: 10px;
+}
+
+.footer-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 380px;
+    color: #F3D3D6;
+    font-size: 15px;
+}
+
